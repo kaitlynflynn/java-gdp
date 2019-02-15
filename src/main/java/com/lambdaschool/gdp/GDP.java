@@ -14,7 +14,7 @@ public class GDP
     // fields
     private @Id @GeneratedValue Long id;
     private String country;
-    private long gdp;
+    private Long gdp;
 
     public GDP()
     {
