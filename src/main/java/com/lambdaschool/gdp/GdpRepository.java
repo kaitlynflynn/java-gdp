@@ -1,7 +1,7 @@
 package com.lambdaschool.gdp;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+        import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface GdpRepository extends JpaRepository<Country, Long>
+public interface GdpRepository extends JpaRepository<GDP, Long>
 {
 }
